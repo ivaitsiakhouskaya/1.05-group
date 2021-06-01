@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "d2a70c89-a6b2-4f82-a9a8-23d44e0b14e3",
+		"_postman_id": "2598f01e-a7bc-4b8b-8328-a9ab080aa945",
 		"name": "petstore.swagger.io",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -178,8 +178,8 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 200\", function () {",
-							"    pm.response.to.have.status(200);",
+							"pm.test(\"Status code is 404\", function () {",
+							"    pm.response.to.have.status(404);",
 							"});"
 						],
 						"type": "text/javascript"
